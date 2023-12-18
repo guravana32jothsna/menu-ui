@@ -1,0 +1,48 @@
+.container {
+    display: grid; 
+    grid-template-rows: 1fr 8fr;
+    padding: 0; 
+    margin: 0;
+    height: 100%;
+}
+
+.navbar {
+    background-color: #FDCEDF;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    height: 60px;
+}
+
+.flexCenter {
+    display: flex;
+    row-gap: 2rem ;    
+    align-items: center;
+}
+
+.paddings {
+    padding: 1.5rem;
+}
+.innerWidth {
+    width: 100%;
+}
+.left >:nth-child(1) {
+    font-weight: 1000;
+    font-size: 1.5rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+ul>*>:nth-child(1) {
+    text-decoration: none;
+    color: black;
+}
+
+.linkto:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    color: white;
+}

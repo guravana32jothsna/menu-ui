@@ -1,0 +1,12 @@
+.center {
+    display: flex;
+    align-items: center;
+}
+.footbar {
+    background-color: #FDCEDF;
+    padding-bottom: 0;
+   
+}
+.text {
+    justify-content: center;
+}
